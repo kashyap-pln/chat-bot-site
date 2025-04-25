@@ -1,0 +1,116 @@
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 6vh;
+    margin-top: 2vh;
+    border-radius: 30px;
+    padding: 0 2vw;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+                rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.2); /* transparent background */
+    backdrop-filter: blur(8px); /* optional for frosted glass effect */
+    z-index: 999; /* stay on top */
+  }
+  
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  .app-name {
+    text-transform: capitalize;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    font-size: 0.95rem;
+    color: #333;
+    transition: color 0.2s ease;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .nav-item:hover {
+    color: black;
+  }
+  
+  .login-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #4338ca;
+  }
+  
+  /* Drawer styling for mobile */
+  .drawer-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  
+  .drawer-item {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .drawer-item:hover {
+    color: black;
+  }
+  
+  .drawer-login {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .drawer-login:hover {
+    background-color: #333;
+  }
+  
+  /* Responsive visibility */
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .desktop-nav {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  

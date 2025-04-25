@@ -1,0 +1,78 @@
+.chatbot-landing {
+    padding: 80px 20px;
+    color: #333;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .chatbot-container {
+    max-width: 800px;
+    margin-left: 6vw;
+  }
+  
+  .chatbot-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .chatbot-subtitle {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .chatbot-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: black;
+  }
+  
+  .chatbot-button {
+    background-color: black;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(79, 70, 229, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .chatbot-button:hover {
+    background-color: #4338ca;
+  }
+  
+  .chat-bot-pros {
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-right: 6vw;
+  }
+  
+  .chat-bot-pros-list {
+    list-style-type: none; /* Remove default bullets */
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .chat-bot-pros-list li {
+    position: relative;
+    font-size: 1.1rem;
+    margin-bottom: 15px; /* Space between list items */
+  }
+  
+  .chat-bot-pros-list li::before {
+    content: "✔"; /* Use a smaller tick symbol */
+    position: absolute;
+    left: -25px; /* Adjust this value for spacing between tick and text */
+    top: 0;
+    font-size: 1.2rem; /* Set a smaller size for the tick */
+    line-height: 1.6;
+  }
+  
