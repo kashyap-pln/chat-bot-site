@@ -22,6 +22,7 @@ const ChatbotLandingSection = () => {
         </p>
         <button className="chatbot-button">Try Chatbot Now</button>
       </div>
+      <div className="chat-bot-pros-div">
       <div className="chat-bot-pros">
         <h1 className="chatbot-title">
           <span role="img" aria-label="wave">💡</span> Why Chatbot?
@@ -33,6 +34,7 @@ const ChatbotLandingSection = () => {
           <li>Boosts support, sales, and engagement</li>
           <li>Try it free — no credit card required</li>
         </ul>
+      </div>
       </div>
     </section>
   );
