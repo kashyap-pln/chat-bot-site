@@ -6,7 +6,8 @@ const ChatbotLandingSection = () => {
     <section className="chatbot-landing">
       <div className="chatbot-container">
         <h1 className="chatbot-title">
-          <span role="img" aria-label="wave">👋</span> Meet Chatbot
+          {/* <span role="img" aria-label="wave">👋</span> */}
+           Meet Chatbot
         </h1>
         <h2 className="chatbot-subtitle">
           Your Website’s AI-Powered Support Assistant
@@ -25,7 +26,8 @@ const ChatbotLandingSection = () => {
       <div className="chat-bot-pros-div">
       <div className="chat-bot-pros">
         <h1 className="chatbot-title">
-          <span role="img" aria-label="wave">💡</span> Why Chatbot?
+          {/* <span role="img" aria-label="wave">💡</span>  */}
+          Why Chatbot?
         </h1>
         <ul className="chatbot-text chat-bot-pros-list">
           <li>No manual training — just provide your URL</li>

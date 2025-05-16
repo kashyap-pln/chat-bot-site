@@ -1,0 +1,53 @@
+.how-it-works-div{
+    padding: 80px 0;
+    color: #333;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.how-it-works-container{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-left: 6vh;
+    height: fit-content;
+}
+
+.how-it-works-container ol{
+    margin-left: 0;
+    /* padding-left: 0; */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .how-it-works-container ol li {
+    position: relative;
+    font-size: 1.1rem;
+    padding-left: 10px;
+  }
+  
+  /* Remove bottom space after the last list item */
+  .how-it-works-container ol li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .how-it-works-div {
+      justify-content: center;
+      align-items: center;
+      margin-top: 20vh;
+    }
+  
+    .how-it-works-container {
+      margin-left: 0; 
+      width: 90%; 
+    }
+  }
+  
