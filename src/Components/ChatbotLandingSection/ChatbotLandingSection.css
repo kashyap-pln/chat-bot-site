@@ -2,13 +2,14 @@
   padding: 80px 0;
   color: #333;
   height: 100vh;
-  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
   box-sizing: border-box;
+  background-image: url('../../assets/bg1.svg');
+  background-size: cover;
 }
 
 .chatbot-container,
@@ -40,9 +41,9 @@
 
 /* Background colors for development view */
 .chatbot-container {
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   border-radius: 15px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1); 
+  /* box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);  */
   margin-top:3vh;
 }
 
@@ -91,9 +92,9 @@
 }
 
 .chat-bot-pros {
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   border-radius: 15px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1); 
+  /* box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);  */
   padding: 20px;
 }
 

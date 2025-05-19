@@ -18,6 +18,7 @@ export default function HowItWorks() {
           <li>Embed it on your site — that’s it!</li>
         </ol>
       </div>
+      <div></div>
     </div>
   )
 }

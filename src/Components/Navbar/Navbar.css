@@ -45,6 +45,7 @@
     display: flex;
     align-items: center;
     height: 100%;
+    color:rgb(211, 211, 211)
   }
   
   .nav-item:hover {
